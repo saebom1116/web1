@@ -1,0 +1,23 @@
+p { 
+    font-size: 12pt;
+}
+a{
+    text-decoration: none;
+}
+a:link {
+    color: cornflowerblue;
+}
+a:hover {
+    color: palevioletred;
+}
+a:visited {
+    color:gold;
+}
+div > p::first-letter {
+    font-size: 19px; 
+    color: plum; 
+}
+div.practice{
+    font-size: 20px;
+    color: blueviolet;
+}
